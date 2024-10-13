@@ -21,7 +21,7 @@ public class Main {
 
         // вычисляем потенциальный объем ошибок
         double b = MethodsTask1.ProgException(v,ArrData[5]);
-        System.out.println("Потенциальный объем программы - " + b);
+        System.out.println("Количество ошибок в программе - " + b);
 
         System.out.println();
 
