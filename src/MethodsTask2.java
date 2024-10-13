@@ -57,4 +57,8 @@ public class MethodsTask2 {
          return  timeToDoProg(ArrData,m,v)*n/2/Math.log(quantExceptions(ArrData));
     }
 
+    public static double progTrA(double[] ArrData, int m, int v, double n){
+        return  timeToDoProg(ArrData,m,v)*n/2/Math.log(quantExceptions(ArrData));
+    }
+
 }
