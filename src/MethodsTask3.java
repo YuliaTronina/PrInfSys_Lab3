@@ -42,6 +42,12 @@ public class MethodsTask3 {
         return Math.round(planEx);
     }
 
+    public static double planExL4 (double rating,double lambda, double V){
+        double planEx=corRandL3(rating,lambda)*V;
+        System.out.println("Вы используете метод 4");
+        return Math.round(planEx);
+    }
+
     // Расчет ожидаемых ошибок
 
   //Определение рейтингов при расчете коэффициента corRandL1
