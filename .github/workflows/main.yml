@@ -15,7 +15,7 @@ jobs:
         # Шаги
         steps:
           # Actions от github: проверяет репозиторий, гит и т.д.
-          - uses: actions/checkout@v3
+          - uses: actions/main.yaml
 
           # Пример однолинейного простого скрипта shell
           - name: Run a one-line script
