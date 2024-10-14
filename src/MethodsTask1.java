@@ -11,4 +11,9 @@ public class MethodsTask1 {
         return Math.round(ProgException);
     }
 
+    public static double ProgException1 (double ProgLength, double lambda){
+        double ProgException = Math.pow(ProgLength, 2)/3000/lambda;
+        return Math.round(ProgException);
+    }
+
 }
